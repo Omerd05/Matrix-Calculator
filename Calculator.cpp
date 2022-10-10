@@ -81,7 +81,7 @@ struct Ranking
             while (i < M && !matrix[i][j])i++;
             if (i == M)continue;
             ari.switchRows(matrix,i,r);
-            swapsPairty = 1 - swapsPairty;
+            if(i!=r)swapsPairty = 1 - swapsPairty;
             if (N == M) {
                 ari.switchRows(inv, i, r);
             }
