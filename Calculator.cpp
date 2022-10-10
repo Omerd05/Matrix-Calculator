@@ -142,7 +142,7 @@ struct MatrixOperations
         if (N != M)return 0;
         Ranking ranking;
         ranking.rank(matrix);
-        ld ans = pow(1, ranking.swapsPairty);
+        ld ans = pow(-1, ranking.swapsPairty);
         for (int i = 0; i < M; i++) {
             ans *= matrix[i][i];
         }
