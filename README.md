@@ -1,3 +1,3 @@
 # Matrix-Calculator
-Matrix addition &amp; multiplication, transpose &amp; inverse, canonical form &amp; determinant.
+Able to do - Matrix addition &amp; multiplication, find transpose &amp; inverse, and calculate canonical form &amp; determinant.
 Developed using C++.
